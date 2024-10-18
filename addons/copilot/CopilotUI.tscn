@@ -115,7 +115,7 @@ layout_mode = 2
 [node name="Model" type="OptionButton" parent="VBoxParent/ModelSetting"]
 layout_mode = 2
 size_flags_horizontal = 10
-item_count = 3
+item_count = 4
 selected = 1
 fit_to_longest_item = false
 popup/item_0/text = "text-davinci-003"
@@ -124,6 +124,8 @@ popup/item_1/text = "gpt-3.5-turbo"
 popup/item_1/id = 1
 popup/item_2/text = "gpt-4"
 popup/item_2/id = 2
+popup/item_3/text = "llama3.2"
+popup/item_3/id = 3
 
 [node name="ShortcutSetting" type="HBoxContainer" parent="VBoxParent"]
 custom_minimum_size = Vector2(2.08165e-12, 2.08165e-12)
