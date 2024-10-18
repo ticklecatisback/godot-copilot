@@ -109,3 +109,39 @@ I have run experiments with further automation capabilities, such as populating 
 Other interesting usecases may be using embeddings to more accurately model cross-script functionality for your codebase, or using generative models for texture, sprite or 3D asset creation.
 
 Please feel free to open issues requesting features or changes.
+
+### How to use the plugin for Godot
+
+1. **Install the Plugin**: 
+   - Search for "Copilot" in the Godot asset library directly within the engine. Download the addon and enable it in the project settings.
+   - Alternatively, navigate to the [releases page](https://github.com/minosvasilias/godot-copilot/releases) and follow the instructions for the latest one.
+   - You may also clone this repository and copy the `copilot` addon into the `res://addons` directory of your project.
+
+2. **Enable the Plugin**: 
+   - Enable the addon in the project settings.
+
+3. **Enter API Key**: 
+   - Enter your OpenAI API key in the `Copilot` tab located on the right-hand dock.
+
+4. **Select Model**: 
+   - Choose the desired model from the `Model` dropdown in the `Copilot` tab. Available models include `text-davinci-003`, `gpt-3.5-turbo`, `gpt-4`, and `llama3.2`.
+
+5. **Use the Shortcut**: 
+   - Use the selected keyboard shortcut within the code editor to request completions. The default shortcut is `Ctrl + C` (or `Cmd + C` on macOS).
+
+6. **Configure Settings**: 
+   - You can configure various settings such as the shortcut key, modifier, and whether to allow multiline completions in the `Copilot` tab.
+
+7. **Request Completions**: 
+   - Press the selected keyboard shortcut in the code editor to request a completion from the selected model at the current caret position.
+
+8. **Review and Edit**: 
+   - Review the generated code and make any necessary edits.
+
+9. **Save and Test**: 
+   - Save your script and test it in the Godot engine.
+
+10. **Feedback and Issues**: 
+    - If you encounter any issues or have feedback, please open an issue on the [GitHub repository](https://github.com/minosvasilias/godot-copilot/issues).
+
+By following these steps, you can effectively use the Godot Copilot plugin to enhance your development workflow in the Godot engine.
