@@ -41,7 +41,8 @@ func _get_models():
 		"llama-7b",
 		"llama-13b",
 		"llama-30b",
-		"llama-65b"
+		"llama-65b",
+		"llama3.2"
 	]
 
 func _set_model(model_name):
